@@ -1,0 +1,136 @@
+**** ENSEMBLE ON CLINICOPATHOLOGICAL,-,-,,,
+Accuracy Score,Score X_train,Score X_test,,,
+**SVM,-,-,,,
+49.37%,55.56%,49.37%,,,
+**SVM  K-fold cross validation,-,-,,,
+48.11%,47.98%,44.70%,46.21%,46.72%,
+**SVM  K-fold Mean Accuracy of all 5 folds,-,-,-,-,
+46.74%,-,-,-,-,
+**SVM Confusion Matrix,-,-,,,
+"[[  0   7   2  32]
+ [  0  37   3  50]
+ [  0  22   0  68]
+ [  0  16   1 159]]",-,-,-,-,397
+**Naive Bayes,-,-,,,
+48.62%,47.03%,48.62%,,,
+**Naive Bayes K-fold cross validation,-,-,,,
+44.08%,48.74%,44.95%,44.95%,48.74%,
+**Naive Bayes K-fold Mean Accuracy of all 5 folds,-,-,,,
+46.29%,-,-,-,-,
+**Naive Bayes Confusion Matrix,-,-,,,
+"[[  0  12   4  25]
+ [  0  45   9  36]
+ [  3  20   7  60]
+ [  0  25  10 141]]",-,-,-,-,396
+**Random Forest,-,-,,,
+44.08%,98.42%,44.08%,,,
+**Random Forest K-fold cross validation,-,-,,,
+37.53%,45.46%,39.14%,39.90%,41.16%,
+**Random Forest K-fold Mean Accuracy of all 5 folds,-,-,,,
+40.64%,-,-,-,-,
+**Random Forest Confusion Matrix,-,-,,,
+"[[  1  17   6  17]
+ [  5  39  17  29]
+ [  6  22  18  44]
+ [  6  28  25 117]]",-,-,-,-,397
+**Gradient Boosting,-,-,,,
+49.37%,67.24%,49.37%,,,
+**Gradient Boosting K-fold cross validation,-,-,,,
+46.60%,49.50%,45.46%,43.18%,47.73%,
+**Gradient Boosting K-fold Mean Accuracy of all 5 folds,-,-,,,
+46.49%,-,-,-,-,
+**Gradient Boosting Confusion Matrix,-,-,,,
+"[[  1   8   9  23]
+ [  1  40  12  37]
+ [  3  19  16  52]
+ [  3  22  12 139]]",-,-,-,-,397
+**** PCA & ENSEMBLE ,-,-,,,
+**SVM,-,-,,,
+46.98%,79.38%,46.98%,,,
+**SVM  K-fold cross validation,-,-,,,
+45.67%,49.08%,46.72%,45.14%,47.11%,
+**SVM  K-fold Mean Accuracy of all 5 folds,-,-,,,
+46.74%,-,-,-,-,
+**SVM Confusion Matrix,-,-,,,
+"[[  0   6   0  33]
+ [  0  33   1  42]
+ [  0  16   3  87]
+ [  0  13   4 143]]",-,-,-,-,
+**Naive Bayes,-,-,,,
+38.32%,49.64%,38.32%,,,
+**Naive Bayes K-fold cross validation,-,-,,,
+37.53%,40.68%,39.37%,42.78%,36.05%,
+**Naive Bayes K-fold Mean Accuracy of all 5 folds,-,-,,,
+39.28%,-,-,-,-,
+**Naive Bayes Confusion Matrix,-,-,,,
+"[[ 4 10  3 22]
+ [ 5 37 10 24]
+ [10 30 13 53]
+ [15 40 13 92]]",-,-,-,-,
+**Random Forest,-,-,,,
+41.73%,98.49%,41.73%,,,
+**Random Forest K-fold cross validation,-,-,,,
+34.12%,38.32%,42.52%,40.95%,36.05%,
+**Random Forest K-fold Mean Accuracy of all 5 folds,-,-,,,
+38.39%,-,-,-,-,
+**Random Forest Confusion Matrix,-,-,,,
+"[[  1  13   5  20]
+ [  6  35  10  25]
+ [ 12  20  22  52]
+ [  1  33  25 101]]",-,-,-,-,
+**Gradient Boosting,-,-,,,
+47.51%,94.55%,47.51%,,,
+**Gradient Boosting K-fold cross validation,-,-,,,
+45.14%,45.14%,44.88%,45.14%,42.63%,
+**Gradient Boosting K-fold Mean Accuracy of all 5 folds,-,-,,,
+44.59%,-,-,-,-,
+**Gradient Boosting Confusion Matrix,-,-,,,
+"[[  0   8   5  26]
+ [  1  33  10  32]
+ [  5  25   8  68]
+ [  2  13   5 140]]",-,-,-,-,
+**** KERNEL PCA ON GENOMIC & ENSEMBLE ON BOTH ,-,-,,,
+**SVM,-,-,,,
+43.57%,81.02%,43.57%,,,
+**SVM  K-fold cross validation,-,-,,,
+47.24%,47.24%,44.09%,46.46%,46.05%,
+**SVM  K-fold Mean Accuracy of all 5 folds,-,-,,,
+46.22%,-,-,-,-,
+**SVM Confusion Matrix,-,-,,,
+"[[  0   5   1  33]
+ [  0  25   0  51]
+ [  0  15   2  89]
+ [  0  18   3 139]]",-,-,-,-,
+**Naive Bayes,-,-,,,
+31.23%,43.40%,31.23%,,,
+**Naive Bayes K-fold cross validation,-,-,,,
+30.18%,38.58%,27.30%,39.90%,26.58%,
+**Naive Bayes K-fold Mean Accuracy of all 5 folds,-,-,,,
+32.51%,-,-,-,-,
+**Naive Bayes Confusion Matrix,-,-,,,
+"[[19 10  2  8]
+ [17 39  3 17]
+ [39 30  8 29]
+ [52 47  8 53]]",-,-,-,-,
+**Random Forest,-,-,,,
+38.58%,99.02%,38.58%,,,
+**Random Forest K-fold cross validation,-,-,,,
+36.75%,39.37%,36.48%,38.58%,38.16%,
+**Random Forest K-fold Mean Accuracy of all 5 folds,-,-,,,
+37.87%,-,-,-,-,
+**Random Forest Confusion Matrix,-,-,,,
+"[[  2  13   5  19]
+ [  4  27   6  39]
+ [  6  26  12  62]
+ [  6  26  22 106]]",-,-,-,-,381
+**Gradient Boosting,-,-,,,
+43.83%,96.06%,43.83%,,,
+**Gradient Boosting K-fold cross validation,-,-,,,
+44.09%,48.82%,44.88%,44.62%,45.26%,
+**Gradient Boosting K-fold Mean Accuracy of all 5 folds,-,-,,,
+45.54%,-,-,-,-,
+**Gradient Boosting Confusion Matrix,-,-,,,
+"[[  0  12   1  26]
+ [  2  34  10  30]
+ [  2  21   9  74]
+ [  2  25   9 124]]",-,-,-,-,381

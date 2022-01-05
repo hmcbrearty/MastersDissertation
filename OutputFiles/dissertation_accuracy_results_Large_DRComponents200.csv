@@ -1,0 +1,157 @@
+**** ENSEMBLE ON CLINICOPATHOLOGICAL,-,-,,
+Accuracy Score,Score X_train,Score X_test,,
+**SVM,-,-,,
+49.37%,55.56%,49.37%,,
+**SVM  K-fold cross validation,-,-,,
+48.11%,47.98%,44.70%,46.21%,46.72%
+**SVM  K-fold Mean Accuracy of all 5 folds,-,-,-,-
+46.74%,-,-,-,-
+**SVM Confusion Matrix,-,-,,
+"[[  0   7   2  32]
+ [  0  37   3  50]
+ [  0  22   0  68]
+ [  0  16   1 159]]",-,-,-,-
+**Naive Bayes,-,-,,
+48.62%,47.03%,48.62%,,
+**Naive Bayes K-fold cross validation,-,-,,
+44.08%,48.74%,44.95%,44.95%,48.74%
+**Naive Bayes K-fold Mean Accuracy of all 5 folds,-,-,,
+46.29%,-,-,-,-
+**Naive Bayes Confusion Matrix,-,-,,
+"[[  0  12   4  25]
+ [  0  45   9  36]
+ [  3  20   7  60]
+ [  0  25  10 141]]",-,-,-,-
+**Random Forest,-,-,,
+42.82%,98.61%,42.82%,,
+**Random Forest K-fold cross validation,-,-,,
+39.04%,43.18%,40.91%,39.65%,40.40%
+**Random Forest K-fold Mean Accuracy of all 5 folds,-,-,,
+40.64%,-,-,-,-
+**Random Forest Confusion Matrix,-,-,,
+"[[  1  12   9  19]
+ [  4  38  18  30]
+ [  8  17  21  44]
+ [  7  30  29 110]]",-,-,-,-
+**Gradient Boosting,-,-,,
+49.37%,67.24%,49.37%,,
+**Gradient Boosting K-fold cross validation,-,-,,
+46.60%,49.50%,45.46%,43.18%,47.73%
+**Gradient Boosting K-fold Mean Accuracy of all 5 folds,-,-,,
+46.49%,-,-,-,-
+**Gradient Boosting Confusion Matrix,-,-,,
+"[[  1   8   9  23]
+ [  1  40  12  37]
+ [  3  19  16  52]
+ [  3  22  12 139]]",-,-,-,-
+**** PCA & ENSEMBLE ,-,-,,
+**SVM  K-fold cross validation,-,-,,
+45.67%,49.87%,46.72%,45.93%,47.90%
+**SVM  K-fold Mean Accuracy of all 5 folds,-,-,,
+47.22%,-,-,-,-
+**SVM Confusion Matrix,-,-,,
+"[[  0   9   0  30]
+ [  0  24   1  51]
+ [  0  14   3  89]
+ [  0  21   2 137]]",-,-,-,-
+**Naive Bayes K-fold cross validation,-,-,,
+36.22%,39.90%,34.38%,41.47%,30.53%
+**Naive Bayes K-fold Mean Accuracy of all 5 folds,-,-,,
+36.50%,-,-,-,-
+**Naive Bayes Confusion Matrix,-,-,,
+"[[ 1 11  3 24]
+ [ 6 38  8 24]
+ [ 8 30  9 59]
+ [11 47  7 95]]",-,-,-,-
+**Random Forest K-fold cross validation,-,-,,
+39.90%,39.37%,39.63%,38.85%,38.16%
+**Random Forest K-fold Mean Accuracy of all 5 folds,-,-,,
+39.18%,-,-,-,-
+**Random Forest Confusion Matrix,-,-,,
+"[[  0  11   6  22]
+ [  9  30  11  26]
+ [  5  20  14  67]
+ [  4  27  24 105]]",-,-,-,-
+**Gradient Boosting K-fold cross validation,-,-,,
+45.67%,45.93%,46.72%,43.31%,45.00%
+**Gradient Boosting K-fold Mean Accuracy of all 5 folds,-,-,,
+45.33%,-,-,-,-
+**Gradient Boosting Confusion Matrix,-,-,,
+"[[  0   9   6  24]
+ [  2  31   7  36]
+ [  1  23  15  67]
+ [  3  24   5 128]]",-,-,-,-
+**** KERNEL PCA ON GENOMIC & ENSEMBLE ON BOTH ,-,-,,
+**SVM  K-fold cross validation,-,-,,
+47.24%,47.24%,44.09%,46.46%,46.05%
+**SVM  K-fold Mean Accuracy of all 5 folds,-,-,,
+46.22%,-,-,-,-
+**SVM Confusion Matrix,-,-,,
+"[[  0   5   1  33]
+ [  0  25   0  51]
+ [  0  15   2  89]
+ [  0  18   3 139]]",-,-,-,-
+**Naive Bayes K-fold cross validation,-,-,,
+30.18%,38.58%,27.30%,39.90%,26.58%
+**Naive Bayes K-fold Mean Accuracy of all 5 folds,-,-,,
+32.51%,-,-,-,-
+**Naive Bayes Confusion Matrix,-,-,,
+"[[19 10  2  8]
+ [17 39  3 17]
+ [39 30  8 29]
+ [52 47  8 53]]",-,-,-,-
+**Random Forest K-fold cross validation,-,-,,
+36.22%,39.63%,40.42%,40.95%,42.11%
+**Random Forest K-fold Mean Accuracy of all 5 folds,-,-,,
+39.87%,-,-,-,-
+**Random Forest Confusion Matrix,-,-,,
+"[[ 3 11  3 22]
+ [ 6 35  9 26]
+ [ 9 17 19 61]
+ [12 27 30 91]]",-,-,-,-
+**Gradient Boosting K-fold cross validation,-,-,,
+44.09%,48.82%,44.88%,44.62%,45.26%
+**Gradient Boosting K-fold Mean Accuracy of all 5 folds,-,-,,
+45.54%,-,-,-,-
+**Gradient Boosting Confusion Matrix,-,-,,
+"[[  0  12   1  26]
+ [  2  34  10  30]
+ [  2  21   9  74]
+ [  2  25   9 124]]",-,-,-,-
+**** KERNEL PCA ON GENOMIC & ENSEMBLE ON BOTH ,-,-,,
+**SVM  K-fold cross validation,-,-,,
+47.24%,47.24%,44.09%,46.46%,46.05%
+**SVM  K-fold Mean Accuracy of all 5 folds,-,-,,
+46.22%,-,-,-,-
+**SVM Confusion Matrix,-,-,,
+"[[  0   5   1  33]
+ [  0  25   0  51]
+ [  0  15   2  89]
+ [  0  18   3 139]]",-,-,-,-
+**Naive Bayes K-fold cross validation,-,-,,
+30.18%,38.58%,27.30%,39.90%,26.58%
+**Naive Bayes K-fold Mean Accuracy of all 5 folds,-,-,,
+32.51%,-,-,-,-
+**Naive Bayes Confusion Matrix,-,-,,
+"[[19 10  2  8]
+ [17 39  3 17]
+ [39 30  8 29]
+ [52 47  8 53]]",-,-,-,-
+**Random Forest K-fold cross validation,-,-,,
+37.01%,35.96%,34.38%,32.28%,40.79%
+**Random Forest K-fold Mean Accuracy of all 5 folds,-,-,,
+36.08%,-,-,-,-
+**Random Forest Confusion Matrix,-,-,,
+"[[ 1 11  4 23]
+ [ 5 33 11 27]
+ [ 3 32 19 52]
+ [ 7 33 29 91]]",-,-,-,-
+**Gradient Boosting K-fold cross validation,-,-,,
+44.09%,48.82%,44.88%,44.62%,45.26%
+**Gradient Boosting K-fold Mean Accuracy of all 5 folds,-,-,,
+45.54%,-,-,-,-
+**Gradient Boosting Confusion Matrix,-,-,,
+"[[  0  12   1  26]
+ [  2  34  10  30]
+ [  2  21   9  74]
+ [  2  25   9 124]]",-,-,-,-
